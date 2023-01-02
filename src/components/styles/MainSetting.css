@@ -1,0 +1,107 @@
+table {  
+  /*prevents double border*/
+  border-collapse: collapse; 
+  /*align inner content*/
+  text-align: center;
+  /*table in relation to header*/
+  width: 100%;
+}
+
+td, th {
+  /*color and size of border*/
+  border: 1px solid #9b8a8a;      
+  padding:3px ;   
+}
+
+   /*the header row*/
+   th {  
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  /*every even row*/
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.buttonDisconnect {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);  
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  outline: transparent;  
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;  
+}
+
+.buttonDisconnect:focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.buttonDisconnect:hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.buttonContainer {
+  display:flex; 
+  justify-content:space-around;
+  border-top: none;
+  
+  border-left: none;
+}
+.buttonConnect {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 12px;  
+  color: rgb(43, 44, 38);
+  background: linear-gradient(0deg, rgb(24, 160, 63) 0%, rgb(0, 252, 21) 100%);  
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+}
+
+.buttonConnect:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #ff0202;
+}
+
+.buttonConnect:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+.buttonDisconnect {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);  
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  outline: transparent;  
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;  
+}
+
+.buttonDisconnect:focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.buttonDisconnect:hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+
+     

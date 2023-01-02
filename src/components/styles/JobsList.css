@@ -1,0 +1,15 @@
+.jobsHeader{   
+  display:flex;
+   background-color:rgb(199, 54, 29);
+    color:white;
+    /* Serves as center as there is no other content*/
+     justify-content: space-around; 
+     font-family: Comic Sans MS;  
+     border: 2px solid #080808;
+     min-width: 500px;   
+   }
+
+  /*Bigger font in first cell*/
+  #devTable tr td:first-child, #jobsTable tr td:first-child {
+    font-weight: 900;
+  }

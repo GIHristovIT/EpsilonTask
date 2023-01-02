@@ -1,0 +1,28 @@
+  /*container that holds all the devices*/
+  .deviceCardWrapper {
+    display:flex;
+    margin:10px 10px 10px 10px ; 
+    justify-content:space-between;
+    flex-wrap: wrap;
+ }
+
+ .singleDevice {
+ margin:10px;
+ list-style: none; 
+ flex: 0 0 33.333333%;
+}
+
+ .deviceHeader{   
+  display:flex;
+   background-color:blue;
+    color:white;
+    /* Serves as center as there is no other content*/
+     justify-content: space-around;  
+     font-family: Comic Sans MS; 
+     border: 2px solid #080808      
+   }
+
+  .firstPickedPort {
+    color:rgb(111, 0, 255);
+    font-weight:bold;
+  }

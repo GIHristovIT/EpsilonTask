@@ -1,0 +1,10 @@
+.cablesHeader{   
+  display:flex;
+   background-color:rgb(197, 156, 21);
+    color:white;
+    /* Serves as center as there is no other content*/
+     justify-content: space-around; 
+     font-family: Comic Sans MS;  
+     border: 2px solid #080808;
+     min-width: 500px;   
+   }

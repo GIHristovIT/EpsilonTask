@@ -1,0 +1,42 @@
+#cancelButton {
+    background-color:red;
+    font-weight: bold;
+    border-left: 0px;
+    border-right:0px;
+    cursor: pointer;    
+}
+
+#cancelButton:hover  {
+  box-shadow: 0 0.5em 1.5em -0.5em #ff0202;
+}
+
+.center {  
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+ 
+#ac-wrapper {
+  position: fixed;
+  width:300px;
+  z-index:1;
+  margin: 4% auto;
+  left: 0;
+  right: 0; 
+} 
+
+#popup{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 5px solid #000;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #304d79 0px 0px 3px 3px;
+    position: relative;
+}
